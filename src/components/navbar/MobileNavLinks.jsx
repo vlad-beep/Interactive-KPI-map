@@ -16,6 +16,7 @@ margin: 0;
   position: fixed;
   top: 75px;
   left: 0;
+  z-index:10;
 `;
 const LinkItem = styled.li`
 width: 100%;

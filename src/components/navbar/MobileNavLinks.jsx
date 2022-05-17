@@ -75,7 +75,7 @@ export function MobileNavLinks(props) {
   <NavLink to="/Contacts" activeStyle>Контакти</NavLink>
   </LinkItem>
     <LinkItem> 
-  <NavLink to="/About" activeStyle>Про карту</NavLink>
+  <NavLink to="/About" activeStyle>Про інститут</NavLink>
   </LinkItem>
   <Marginer />
   <NavBtnComponent/>

@@ -63,7 +63,7 @@ export function NavLinks(props) {
       <NavLink to="/Contacts" activeStyle>Контакти</NavLink>
       </LinkItem>
         <LinkItem> 
-      <NavLink to="/About" activeStyle>Про карту</NavLink>
+      <NavLink to="/About" activeStyle>Про інститут</NavLink>
       </LinkItem>
       </NavMenu> 
     </NavLinksContainer>

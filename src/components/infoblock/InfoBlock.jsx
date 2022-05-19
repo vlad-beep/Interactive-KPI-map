@@ -4,6 +4,8 @@ import { MdPeopleAlt } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaHouseUser } from "react-icons/fa";
 import { FaUniversity } from "react-icons/fa";
+import {DiagramInfo} from '../infoblock/DiagramInfo'
+import {MiddleMarks} from '../infoblock/MiddleMarks'
 
 const InfoContainer = styled.div`
    padding: 0;
@@ -89,10 +91,18 @@ export function InfoBlock(props) {
                         <span>Кількість гуртожитків</span>
              </InfoCard>
              </FirstInfoBlockSecondElement>
-             
-             
-         
      </FirstInfoBlock>
+     <FirstInfoBlock>
+     <FirstInfoBlockSecondElement>
+             <InfoCard> 
+                 <DiagramInfo/>
+                 </InfoCard>
+                 <InfoCard> 
+                 <MiddleMarks/>
+                 </InfoCard>
+               
+             </FirstInfoBlockSecondElement>
+             </FirstInfoBlock>
      </InfoContant>
  </InfoContainer>
                            

@@ -1,0 +1,603 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "properties": {
+        "name": "Гуртожиток №1",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-1.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.453398, 50.449792]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №3",
+        "description": "8,175,133",
+        "image": "http://photos.wikimapia.org/p/00/06/29/55/81_big.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.452827, 50.447542]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №4",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-4.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.453314, 50.449052]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №5",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images-story/photo_2021-08-20%2019.05.36.jpeg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.451395, 50.447356]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №6",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-6.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.452832, 50.448215]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №7",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-7.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.451992, 50.448547]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №8",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images-page/d-8.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.451628, 50.447965]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №9",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/polyclinic.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.452626, 50.449357]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №10",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-10.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.452308, 50.447213]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №11",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-11.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.451994, 50.448823]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №12",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-12.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.450205, 50.448819]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №14",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-14.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.4502, 50.44964]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №15",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-15.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.451102, 50.448628]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №16",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-16.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.449448, 50.447271]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №17",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-17.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.450342, 50.446925]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №18",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-18_0.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.447661, 50.445935]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №19",
+        "description": "8,175,133",
+        "image": "http://photos.wikimapia.org/p/00/06/39/14/33_big.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.44935, 50.446365]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №20",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images-story/d-18.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.450883, 50.446666]
+      }
+    },
+    {
+      "properties": {
+        "name": "Гуртожиток №22",
+        "description": "8,175,133",
+        "image": "https://kpi.ua/files/images/d-22.jpg",
+        "state": "Студмістечко КПІ",
+        "type": "Dormitory",
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+      },
+      "geometry": {
+        "coordinates": [30.450883, 50.446666]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images-story/n1648.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name ": "Корпус №1"
+      },
+      "geometry": {
+        "coordinates": [30.4608553647995, 50.44952017967376]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-11.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name ": "Корпус №11"
+      },
+      "geometry": {
+        "coordinates": [30.454860627651215, 50.44866535923137]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-12.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №12"
+      },
+      "geometry": {
+        "coordinates": [30.454281270503994, 50.44796936514801]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-13.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №13"
+      },
+      "geometry": {
+        "coordinates": [30.45560896396637, 50.44783955898383]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-14.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №14"
+      },
+      "geometry": {
+        "coordinates": [30.45616418123245, 50.447776363748694]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-15.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №15"
+      },
+      "geometry": {
+        "coordinates": [30.456746220588684, 50.44770804448063]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/styles/attention/public/images-story/k-5.jpg?itok=iYu7C58c",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №5"
+      },
+      "geometry": {
+        "coordinates": [30.46500071883202, 50.44897278894099]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-16-w.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №16"
+      },
+      "geometry": {
+        "coordinates": [30.45729339122772, 50.447644849069874]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-7.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №7"
+      },
+      "geometry": {
+        "coordinates": [30.45704126358032, 50.44859277136954]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-17.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №17"
+      },
+      "geometry": {
+        "coordinates": [30.458564758300785, 50.44757652961194]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-6.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №6"
+      },
+      "geometry": {
+        "coordinates": [30.460674986243248, 50.44841130122786]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "http://photos.wikimapia.org/p/00/07/73/50/55_big.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №20"
+      },
+      "geometry": {
+        "coordinates": [30.461282841861248, 50.44717835330846]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-21.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №21"
+      },
+      "geometry": {
+        "coordinates": [30.460131838917732, 50.44664438615382]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-19.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №19"
+      },
+      "geometry": {
+        "coordinates": [30.45855537056923, 50.44672893313396]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-18.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №18"
+      },
+      "geometry": {
+        "coordinates": [30.45507855713367, 50.446977662641594]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "http://photos.wikimapia.org/p/00/06/66/40/27_big.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №9"
+      },
+      "geometry": {
+        "coordinates": [30.462775155901912, 50.447033386412116]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-2.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №2"
+      },
+      "geometry": {
+        "coordinates": [30.46314127743244, 50.447569697660725]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images-page/k_28.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №28"
+      },
+      "geometry": {
+        "coordinates": [30.463927164673805, 50.44704662346672]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-35.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №35"
+      },
+      "geometry": {
+        "coordinates": [30.464747250080105, 50.44952637087438]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "http://photos.wikimapia.org/p/00/03/36/79/46_big.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №4"
+      },
+      "geometry": {
+        "coordinates": [30.45532464981079, 50.45064909968936]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-8.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №8"
+      },
+      "geometry": {
+        "coordinates": [30.453394800424572, 50.452034167479454]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-31.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №31"
+      },
+      "geometry": {
+        "coordinates": [30.450912415981293, 50.448073124424475]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-22.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №22"
+      },
+      "geometry": {
+        "coordinates": [30.454254448413852, 50.446039102224994]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-23.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №23"
+      },
+      "geometry": {
+        "coordinates": [30.45472517609596, 50.44543423757026]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-24_2.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №24"
+      },
+      "geometry": {
+        "coordinates": [30.448935627937313, 50.442974560041094]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-27.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №27"
+      },
+      "geometry": {
+        "coordinates": [30.446814000606537, 50.443282453759196]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-30.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name": "Корпус №30"
+      },
+      "geometry": {
+        "coordinates": [30.443500131368637, 50.44293249673547]
+      }
+    }
+  ]
+}

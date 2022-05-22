@@ -10,7 +10,6 @@ const pinStyle = {
 function Pin({ size = 30 }) {
   return (
     <svg height={size} viewBox="0 0 24 24" style={pinStyle}>
-      {' '}
       <FaHouseUser color="#00346E" />
     </svg>
     // <svg height={size} viewBox="0 0 24 24" style={pinStyle}>

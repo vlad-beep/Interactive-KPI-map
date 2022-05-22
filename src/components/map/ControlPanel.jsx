@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { useState } from 'react';
 import { FaHouseUser } from 'react-icons/fa';
 
 const ControlPanelContainert = styled.div`
@@ -22,10 +21,14 @@ export default function ControlPanel({ isChecked, setOpen }) {
   return (
     <ControlPanelContainert>
       <h3>Legend</h3>
-      <label>
-        <p>Гуртожитки</p>
-        <input type="checkbox" checked={isChecked} onChange={() => setOpen(!isChecked)}></input>
-      </label>
+      <p>Гуртожитки</p>
+      <input type="checkbox" checked={isChecked} onChange={() => setOpen(!isChecked)}></input>
+      <FaHouseUser size={20} />
+      <p>Гуртожитки</p>
+      <input type="checkbox" checked={isChecked} onChange={() => setOpen(!isChecked)}></input>
+      <FaHouseUser size={20} />
+      <p>Гуртожитки</p>
+      <input type="checkbox" checked={isChecked} onChange={() => setOpen(!isChecked)}></input>
       <FaHouseUser size={20} />
     </ControlPanelContainert>
   );

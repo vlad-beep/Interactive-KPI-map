@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 import Map, {
   Marker,
@@ -21,26 +21,36 @@ export function MapComponent() {
   const [isChecked, setOpen] = useState(true);
   const [filter, setfilter] = useState('ALL');
 
-  const pins = useMemo(
-    () =>
-      KPI.features.map((object, index) => (
-        <Marker
-          key={`marker-${index}`}
-          longitude={object.geometry.coordinates[0]}
-          latitude={object.geometry.coordinates[1]}
-          anchor="top"
-          cursor="pointer"
-          onClick={(e) => {
-            // If we let the click event propagates to the map, it will immediately close the popup
-            // with `closeOnClick: true`
-            e.originalEvent.stopPropagation();
-            setPopupInfo(object);
-          }}>
-          <img src={object.properties.icon} width={20} height={20} alt="icon" />
-        </Marker>
-      )),
-    [],
-  );
+  // const pins = useMemo(
+  //   () =>
+  //     KPI.features
+  //       .filter((location) => {
+  //         if (filter === 'ALL') {
+  //           return true;
+  //         }
+  //         if (filter === location.properties.type) {
+  //           return true;
+  //         }
+  //         return false;
+  //       })
+  //       .map((location, index) => (
+  //         <Marker
+  //           key={`marker-${index}`}
+  //           longitude={location.geometry.coordinates[0]}
+  //           latitude={location.geometry.coordinates[1]}
+  //           anchor="top"
+  //           cursor="pointer"
+  //           onClick={(e) => {
+  //             // If we let the click event propagates to the map, it will immediately close the popup
+  //             // with `closeOnClick: true`
+  //             e.originalEvent.stopPropagation();
+  //             setPopupInfo(location);
+  //           }}>
+  //           <img src={location.properties.icon} width={20} height={20} alt="icon" />
+  //         </Marker>
+  //       )),
+  //   [],
+  // );
   return (
     <>
       <Map
@@ -52,7 +62,33 @@ export function MapComponent() {
         style={{ width: '100vr', height: '100vh' }}
         mapStyle="mapbox://styles/mapbox/streets-v9"
         mapboxAccessToken={MAPBOX_TOKEN}>
-        {isChecked ? pins : []}
+        {/* {isChecked ? pins : []} */}
+        {KPI.features
+          .filter((location) => {
+            if (filter === 'ALL') {
+              return true;
+            }
+            if (filter === location.properties.type) {
+              return true;
+            }
+            return false;
+          })
+          .map((location, index) => (
+            <Marker
+              key={`marker-${index}`}
+              longitude={location.geometry.coordinates[0]}
+              latitude={location.geometry.coordinates[1]}
+              anchor="top"
+              cursor="pointer"
+              onClick={(e) => {
+                // If we let the click event propagates to the map, it will immediately close the popup
+                // with `closeOnClick: true`
+                e.originalEvent.stopPropagation();
+                setPopupInfo(location);
+              }}>
+              <img src={location.properties.icon} width={20} height={20} alt="icon" />
+            </Marker>
+          ))}
         {popupInfo && (
           <Popup
             maxWidth="320px"
@@ -62,8 +98,12 @@ export function MapComponent() {
             onClose={() => setPopupInfo(null)}>
             <img width="100%" src={popupInfo.properties.image} alt="" />
             <div className="PopupContainer">
-              {popupInfo.properties.name}, {popupInfo.properties.state} |{' '}
+              <h2>
+                {popupInfo.properties.name} | {popupInfo.properties.state}
+              </h2>
               <p>{popupInfo.properties.description}</p>
+              <h2>Адреса:</h2>
+              <p>{popupInfo.properties.adress}</p>
             </div>
           </Popup>
         )}
@@ -73,12 +113,28 @@ export function MapComponent() {
         <NavigationControl position="top-left" />
         <ScaleControl />
       </Map>
-      <select value={filter} onChange={(event) => setfilter(event.target.value)}>
+      <input
+        type="checkbox"
+        value="ALL"
+        onChange={(event) => setfilter(event.target.value)}></input>
+      <input
+        type="checkbox"
+        value="Dormitory"
+        onChange={(event) => setfilter(event.target.value)}></input>
+      <input
+        type="checkbox"
+        value="Campus"
+        onChange={(event) => setfilter(event.target.value)}></input>
+      <input
+        type="checkbox"
+        value="Park"
+        onChange={(event) => setfilter(event.target.value)}></input>
+
+      {/* <select value={filter} onChange={(event) => setfilter(event.target.value)}>
         <option>ALL</option>
-        <option>diner</option>
-        <option>pizza</option>
-      </select>
-      ;
+        <option>Dormitory</option>
+        <option>Campus</option>
+      </select> */}
     </>
   );
 }

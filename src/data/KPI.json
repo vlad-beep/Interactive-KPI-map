@@ -8,7 +8,8 @@
         "image": "https://kpi.ua/files/images/d-1.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.453398, 50.449792]
@@ -21,7 +22,8 @@
         "image": "http://photos.wikimapia.org/p/00/06/29/55/81_big.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.452827, 50.447542]
@@ -34,7 +36,8 @@
         "image": "https://kpi.ua/files/images/d-4.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.453314, 50.449052]
@@ -47,7 +50,8 @@
         "image": "https://kpi.ua/files/images-story/photo_2021-08-20%2019.05.36.jpeg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.451395, 50.447356]
@@ -60,7 +64,8 @@
         "image": "https://kpi.ua/files/images/d-6.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.452832, 50.448215]
@@ -73,7 +78,8 @@
         "image": "https://kpi.ua/files/images/d-7.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.451992, 50.448547]
@@ -86,7 +92,8 @@
         "image": "https://kpi.ua/files/images-page/d-8.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.451628, 50.447965]
@@ -99,7 +106,8 @@
         "image": "https://kpi.ua/files/images/polyclinic.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.452626, 50.449357]
@@ -112,7 +120,8 @@
         "image": "https://kpi.ua/files/images/d-10.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.452308, 50.447213]
@@ -125,7 +134,8 @@
         "image": "https://kpi.ua/files/images/d-11.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.451994, 50.448823]
@@ -138,7 +148,8 @@
         "image": "https://kpi.ua/files/images/d-12.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.450205, 50.448819]
@@ -151,7 +162,8 @@
         "image": "https://kpi.ua/files/images/d-14.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.4502, 50.44964]
@@ -164,7 +176,8 @@
         "image": "https://kpi.ua/files/images/d-15.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.451102, 50.448628]
@@ -177,7 +190,8 @@
         "image": "https://kpi.ua/files/images/d-16.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.449448, 50.447271]
@@ -190,7 +204,8 @@
         "image": "https://kpi.ua/files/images/d-17.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.450342, 50.446925]
@@ -203,7 +218,8 @@
         "image": "https://kpi.ua/files/images/d-18_0.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.447661, 50.445935]
@@ -216,7 +232,8 @@
         "image": "http://photos.wikimapia.org/p/00/06/39/14/33_big.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.44935, 50.446365]
@@ -229,7 +246,8 @@
         "image": "https://kpi.ua/files/images-story/d-18.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.450883, 50.446666]
@@ -242,7 +260,8 @@
         "image": "https://kpi.ua/files/images/d-22.jpg",
         "state": "Студмістечко КПІ",
         "type": "Dormitory",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f"
+        "icon": "https://cdn-icons.flaticon.com/png/512/2859/premium/2859086.png?token=exp=1653142389~hmac=d711e7099df033714ecd3af5d118d79f",
+        "adress": ""
       },
       "geometry": {
         "coordinates": [30.450883, 50.446666]
@@ -255,23 +274,10 @@
         "state": "Теф",
         "type": "Campus",
         "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
-        "name ": "Корпус №1"
+        "name ": "Корпус"
       },
       "geometry": {
         "coordinates": [30.4608553647995, 50.44952017967376]
-      }
-    },
-    {
-      "properties": {
-        "description": "1000",
-        "image": "https://kpi.ua/files/images/k-11.jpg",
-        "state": "Теф",
-        "type": "Campus",
-        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
-        "name ": "Корпус №11"
-      },
-      "geometry": {
-        "coordinates": [30.454860627651215, 50.44866535923137]
       }
     },
     {
@@ -285,6 +291,19 @@
       },
       "geometry": {
         "coordinates": [30.454281270503994, 50.44796936514801]
+      }
+    },
+    {
+      "properties": {
+        "description": "1000",
+        "image": "https://kpi.ua/files/images/k-11.jpg",
+        "state": "Теф",
+        "type": "Campus",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231696.png",
+        "name ": "Корп"
+      },
+      "geometry": {
+        "coordinates": [30.454860627651215, 50.44866535923137]
       }
     },
     {
@@ -597,6 +616,71 @@
       },
       "geometry": {
         "coordinates": [30.443500131368637, 50.44293249673547]
+      }
+    },
+    {
+      "properties": {
+        "name": "Парк КПІ",
+        "description": "Студенти та співробітники НТУУ 'КПІ' настільки звикли до того, що на території університету розбитий чудовий парк, де можна гуляти, бігати вранці, зустрічатися з друзями, а також готуватися до іспитів чи лекців, навіть не можуть уявити собі КПІ без парку.",
+        "image": "https://periscope.com.ua/sites/default/files/1/dazest/Park-KPI/park-kpi-03.jpg",
+        "type": "Park",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2084/2084211.png",
+        "adress": "Проспект Перемоги"
+      },
+      "geometry": {
+        "coordinates": [30.45904755592346, 50.45134249257872]
+      }
+    },
+    {
+      "properties": {
+        "name": "Сквер Сосновий",
+        "description": "Затишний сквер на території кампуса",
+        "image": "https://fastly.4sqi.net/img/general/600x600/6TariECaA0OG-wLco0YdBTyFYYSZN6djxd_LmX62Ma4.jpg",
+        "type": "Park",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2084/2084211.png",
+        "adress": ""
+      },
+      "geometry": {
+        "coordinates": [30.455029606819156, 50.4498276038294]
+      }
+    },
+    {
+      "properties": {
+        "name": "Сквер імені Олени Теліги",
+        "description": "колишня назва скверу — «Поляна», походить від колишньої назви розташованої поруч станції швидкісного трамваю «Польова», тепер вона «Олекси Тихого»",
+        "image": "http://kiev-foto.info/images/vuzy/kpi/shara_priydi_1.jpg",
+        "type": "Park",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2084/2084211.png",
+        "adress": "вул. Політехнічна, 16"
+      },
+      "geometry": {
+        "coordinates": [30.45409351587296, 50.447310082783495]
+      }
+    },
+    {
+      "properties": {
+        "name": "Сквер імені Піонерів Авіації",
+        "description": "Затишний сквер на території кампуса",
+        "image": "https://kpi.ua/files/campus-air-2021.jpg",
+        "type": "Park",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2084/2084211.png",
+        "adress": ""
+      },
+      "geometry": {
+        "coordinates": [30.461664050817486, 50.44828790113395]
+      }
+    },
+    {
+      "properties": {
+        "name": "Бібліотека НТУУ 'КПІ'",
+        "description": "Бібліотека обслуговує студентів, викладачів та співробітників КПІ ім. Ігоря Сікорського та користувачів з інших наукових та освітніх закладів. Обслуговування студентів здійснюється на підставі студентського квитка. Для інших категорій користувачів (викладачів та співробітників університету та сторонніх користувачів) виготовляється читацький квиток.",
+        "image": "https://kpi.ua/files/library.jpg",
+        "type": "Library",
+        "icon": "https://cdn-icons-png.flaticon.com/512/1596/1596392.png",
+        "adress": "проспект Перемоги, 37, Київ, 03056"
+      },
+      "geometry": {
+        "coordinates": [30.456156134605404, 50.44957227112957]
       }
     }
   ]

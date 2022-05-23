@@ -20,10 +20,9 @@ const InfoContainer = styled.div`
   margin-right: auto;
   margin-left: auto;
   z-index: 1;
-`;
-const InfoContant = styled.div`
   padding-top: 50px;
 `;
+
 const Head = styled.div`
   font-style: normal;
   font-weight: 500;
@@ -55,7 +54,7 @@ const FormItem = styled.input`
   padding: 0 15px;
   height: 50px;
   width: 100%;
-  min-width: 300px;
+  min-width: 240px;
   color: #6b6c6f;
   margin: 0px;
   font-weight: 500;
@@ -75,10 +74,14 @@ const FormButtom = styled.button`
   border: 2px solid #d25656;
   transition: all 240ms ease-in-out;
   cursor: pointer;
+`;
 
-  &:not(:last-of-type) {
-    margin-right: 7px;
-  }
+const TwoInputs = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  margin-top: 20px;
+  min-width: 240px;
 `;
 
 const Reports = () => {
@@ -86,29 +89,75 @@ const Reports = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+    reset,
+  } = useForm({
+    mode: 'onBlur',
+  });
 
-  const onSubmit = (data) => console.log('Sended:', data);
-
+  const onSubmit = (data) => {
+    console.log('Sended:', data);
+    reset();
+  };
   return (
-    <InfoContainer onSubmit={handleSubmit(onSubmit)}>
-      <InfoContant>
-        <FormComponent onSubmit={handleSubmit(onSubmit)}>
-          <Head>
-            Повідомити про проблему на території студмістечка
-            <SubHead>
-              На цій сторінці ви можете повідомити про знайдену проблему на території студмістечка
-            </SubHead>
-          </Head>
-
+    <InfoContainer>
+      <FormComponent onSubmit={handleSubmit(onSubmit)}>
+        <Head>
+          Повідомити про проблему на території студмістечка
+          <SubHead>
+            На цій сторінці ви можете повідомити про знайдену проблему на території студмістечка
+          </SubHead>
+        </Head>
+        <div>
           <FormItem
-            {...register('title', { required: "Ця форма обов'язкова для заповнення" })}
+            {...register('title', {
+              required: "Ця форма обов'язкова для заповнення",
+              maxLength: {
+                value: 100,
+                message: 'Занадто багато символів',
+              },
+              pattern: {
+                value: /^[А-Яа-я]+$/i,
+                message: 'Недопустимі символи',
+              },
+            })}
             placeholder="Заголовок повідомлення"
           />
           {errors?.title && <div style={{ color: 'red' }}>{errors.title.message}</div>}
-          <FormButtom>Відправити</FormButtom>
-        </FormComponent>
-      </InfoContant>
+        </div>
+        <TwoInputs>
+          <div>
+            <FormItem
+              {...register('name', {
+                required: "Ця форма обов'язкова для заповнення",
+                maxLength: {
+                  value: 15,
+                  message: 'Занадто багато символів',
+                },
+                pattern: {
+                  value: /^[А-Яа-я]+$/i,
+                  message: "Неправильно вказано ім'я",
+                },
+              })}
+              placeholder="ім'я"
+            />
+            {errors?.name && <div style={{ color: 'red' }}>{errors.name.message}</div>}
+          </div>
+          <div>
+            <FormItem
+              {...register('email', {
+                required: "Ця форма обов'язкова для заповнення",
+                pattert: {
+                  value: /^([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})+$/,
+                  message: 'Неправильно вказаний Email',
+                },
+              })}
+              placeholder="email"
+            />
+            {errors?.email && <div style={{ color: 'red' }}>{errors.email.message}</div>}
+          </div>
+        </TwoInputs>
+        <FormButtom>Відправити</FormButtom>
+      </FormComponent>
     </InfoContainer>
   );
 };

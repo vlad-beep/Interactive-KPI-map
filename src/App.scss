@@ -65,3 +65,26 @@ span{
     outline: none;
   }
 
+  .Legend{
+  input{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--fs-12);
+  }
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 20px 25px;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 0;
+      right: 0;
+      margin: 20px;
+
+  }
+

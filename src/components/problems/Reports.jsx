@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import styled from 'styled-components';
+import { FormMap } from '../problems/FormMap';
 
 const FormComponent = styled.form`
   background: #ffffff;
@@ -16,7 +17,7 @@ const FormComponent = styled.form`
 `;
 const InfoContainer = styled.div`
   padding: 0;
-  max-width: 1140px;
+  max-width: 1240px;
   margin-right: auto;
   margin-left: auto;
   z-index: 1;
@@ -84,6 +85,25 @@ const TwoInputs = styled.div`
   min-width: 240px;
 `;
 
+const TextArea = styled.textarea`
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #dfe2e6;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px rgb(0 0 0 / 5%);
+  border-radius: 20px;
+  padding: 15px;
+  width: 100%;
+  font-size: var(--fs-16);
+  height: 260px;
+  font-weight: 500;
+  font-style: italic;
+`;
+
+const MapContainer = styled.div`
+  margin-top: 20px;
+`;
+
 const Reports = () => {
   const {
     register,
@@ -98,6 +118,7 @@ const Reports = () => {
     console.log('Sended:', data);
     reset();
   };
+
   return (
     <InfoContainer>
       <FormComponent onSubmit={handleSubmit(onSubmit)}>
@@ -146,13 +167,37 @@ const Reports = () => {
             <FormItem
               {...register('email', {
                 required: "Ця форма обов'язкова для заповнення",
-                pattert: {
+                pattern: {
                   value: /^([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})+$/,
                   message: 'Неправильно вказаний Email',
                 },
               })}
               placeholder="email"
             />
+            {errors?.email && <div style={{ color: 'red' }}>{errors.email.message}</div>}
+          </div>
+        </TwoInputs>
+        <TextArea
+          {...register('textAreaID', {
+            required: "Ця форма обов'язкова для заповнення",
+            pattern: {
+              value: /^[А-Яа-я]+$/i,
+              message: "Неправильно вказано ім'я",
+            },
+          })}
+          placeholder="Опишіть вашу проблему"
+        />
+        {errors?.email && <div style={{ color: 'red' }}>{errors.email.message}</div>}
+        <MapContainer>
+          <FormMap />
+        </MapContainer>
+        <TwoInputs>
+          <div>
+            <FormItem {...register('Lat')} />
+            {errors?.name && <div style={{ color: 'red' }}>{errors.name.message}</div>}
+          </div>
+          <div>
+            <FormItem {...register('Lng')} />
             {errors?.email && <div style={{ color: 'red' }}>{errors.email.message}</div>}
           </div>
         </TwoInputs>

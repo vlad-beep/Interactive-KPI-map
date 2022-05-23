@@ -1,75 +1,22 @@
 import * as React from 'react';
-import {useState, useCallback} from 'react';
-import {render} from 'react-dom';
-import Map, {Marker, NavigationControl} from 'react-map-gl';
+import Map from 'react-map-gl';
+import { render } from 'react-dom';
 
-import ControlPanel from './control-panel';
-import Pin from './pin';
-
-import type {MarkerDragEvent, LngLat} from 'react-map-gl';
-
-const TOKEN = ''; // Set your mapbox token here
-
-const initialViewState = {
-  latitude: 40,
-  longitude: -100,
-  zoom: 3.5
-};
-
-export function FormMap(params) {
-
-    const [marker, setMarker] = useState({
-        latitude: 40,
-        longitude: -100
-      });
-      const [events, logEvents] = useState<Record<string, LngLat>>({});
-    
-      const onMarkerDragStart = useCallback((event: MarkerDragEvent) => {
-        logEvents(_events => ({..._events, onDragStart: event.lngLat}));
-      }, []);
-    
-      const onMarkerDrag = useCallback((event: MarkerDragEvent) => {
-        logEvents(_events => ({..._events, onDrag: event.lngLat}));
-    
-        setMarker({
-          longitude: event.lngLat.lng,
-          latitude: event.lngLat.lat
-        });
-      }, []);
-    
-      const onMarkerDragEnd = useCallback((event: MarkerDragEvent) => {
-        logEvents(_events => ({..._events, onDragEnd: event.lngLat}));
-      }, []);
-    
-
+const MAPBOX_TOKEN =
+  'pk.eyJ1IjoiYW50aWRlZ3JhZGF0aW9uIiwiYSI6ImNsMzcwenM5dzE2c28zZHBvMmh5cjZ4eXcifQ.tzkHmkDhEhn38aybBrD_tw';
+export function FormMap() {
   return (
-    <>
-      <Map
-        initialViewState={initialViewState}
-        mapStyle="mapbox://styles/mapbox/dark-v9"
-        mapboxAccessToken={TOKEN}
-      >
-        <Marker
-          longitude={marker.longitude}
-          latitude={marker.latitude}
-          anchor="bottom"
-          draggable
-          onDragStart={onMarkerDragStart}
-          onDrag={onMarkerDrag}
-          onDragEnd={onMarkerDragEnd}
-        >
-          <Pin size={20} />
-        </Marker>
-
-        <NavigationControl />
-      </Map>
-      <ControlPanel events={events} />
-    </>
-  )
+    <Map
+      initialViewState={{
+        latitude: 50.44801,
+        longitude: 30.4572,
+        zoom: 14,
+      }}
+      style={{ width: '100wr', height: 400 }}
+      mapStyle="mapbox://styles/mapbox/streets-v9"
+      mapboxAccessToken={MAPBOX_TOKEN}></Map>
+  );
 }
-
 export function renderToDom(container) {
-    render(<App />, container);
-  }
-
-
+  render(<FormMap />, container);
+}

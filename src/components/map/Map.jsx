@@ -20,7 +20,15 @@ export function MapComponent() {
   const [popupInfo, setPopupInfo] = useState(null);
   const [isChecked, setOpen] = useState(true);
   const [filter, setfilter] = useState('ALL');
-
+  const [filters, setfilters] = useState(['ALL']);
+  const onFiltersChange = (filter) => {
+    setfilters((prevfilters) => {
+      if (prevfilters.includes(filter)) {
+        return prevfilters.filter((el) => el !== filter);
+      }
+      return [...prevfilters, filter];
+    });
+  };
   // const pins = useMemo(
   //   () =>
   //     KPI.features
@@ -65,10 +73,10 @@ export function MapComponent() {
         {/* {isChecked ? pins : []} */}
         {KPI.features
           .filter((location) => {
-            if (filter === 'ALL') {
+            if (filters.includes('ALL')) {
               return true;
             }
-            if (filter === location.properties.type) {
+            if (filters.includes(location.properties.type)) {
               return true;
             }
             return false;
@@ -107,34 +115,75 @@ export function MapComponent() {
             </div>
           </Popup>
         )}
-        <ControlPanel isChecked={isChecked} setOpen={setOpen} />
+        <div className="Legend">
+          <h1>Умовні позначки</h1>
+          <div>
+            <label>
+              <input
+                className="checkpoxmap"
+                type="checkbox"
+                value="ALL"
+                checked={filters.includes('ALL')}
+                onChange={(event) => onFiltersChange(event.target.value)}></input>
+              Всі
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                className="checkpoxmap"
+                type="checkbox"
+                value="Dormitory"
+                onChange={(event) => onFiltersChange(event.target.value)}></input>
+              Гуртожитки
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                className="checkpoxmap"
+                type="checkbox"
+                value="Campus"
+                onChange={(event) => onFiltersChange(event.target.value)}></input>
+              Корпуса
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                className="checkpoxmap"
+                type="checkbox"
+                value="Park"
+                onChange={(event) => onFiltersChange(event.target.value)}></input>
+              Парки та сквери
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                className="checkpoxmap"
+                type="checkbox"
+                value="Library"
+                onChange={(event) => onFiltersChange(event.target.value)}></input>
+              Бібліотека
+            </label>
+          </div>
+        </div>
+        {/* <div className="Legend">
+          <select value={filter} onChange={(event) => setfilter(event.target.value)}>
+            <option>ALL</option>
+            <option>Dormitory</option>
+            <option>Campus</option>
+            <option>Park</option>
+            <option>Library</option>
+          </select>
+        </div> */}
+        {/* <ControlPanel isChecked={isChecked} setOpen={setOpen} /> */}
         <GeolocateControl position="top-left" />
         <FullscreenControl position="top-left" />
         <NavigationControl position="top-left" />
         <ScaleControl />
       </Map>
-      <input
-        type="checkbox"
-        value="ALL"
-        onChange={(event) => setfilter(event.target.value)}></input>
-      <input
-        type="checkbox"
-        value="Dormitory"
-        onChange={(event) => setfilter(event.target.value)}></input>
-      <input
-        type="checkbox"
-        value="Campus"
-        onChange={(event) => setfilter(event.target.value)}></input>
-      <input
-        type="checkbox"
-        value="Park"
-        onChange={(event) => setfilter(event.target.value)}></input>
-
-      {/* <select value={filter} onChange={(event) => setfilter(event.target.value)}>
-        <option>ALL</option>
-        <option>Dormitory</option>
-        <option>Campus</option>
-      </select> */}
     </>
   );
 }
